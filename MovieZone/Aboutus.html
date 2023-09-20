@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* styling the about us page */
+
+.Holder {
+    margin: 20px 40px;
+    color: white;
+  }
+  
+  .headin {
+    font-size: 60px;
+    color: white;
+  }
+  
+  .headin span {
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+  }
+  
+  .profile {
+    flex-basis: 260px;
+  }
+  
+  .profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .profile:hover .profile-img {
+    filter: grayscale(0);
+  }
+  
+  .user-name {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  
+  .profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  @media only screen and (max-width: 1150px) {
+    .profiles {
+      flex-direction: column;
+    }
+  
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile p {
+      text-align: center;
+      margin: 20px 60px 80px 60px;
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .headin {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+    }
+  
+    .headin span {
+      font-size: 15px;
+    }
+  
+    .profiles {
+      margin: 20px 0;
+    }
+  
+    .profile p {
+      margin: 20px 10px 80px 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+     <!-- Menue and search bar -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <a href="main.html">
+                        <li>Movies</li>
+                    </a>
+                    <a href="shop.html">
+                        <li>Shop</li>
+                    </a>
+                    <a href="Streaming.html">
+                      <li>Streaming Sites</li>
+                    <a href="Aboutus.html"><li>About Us</li></a>
+                </ul>
+
+                </vav>
+        </div>
+
+    </header>
+
+
+    <div class="Holder">
+        <h1 class="headin"><span>meet</span>Our Team</h1>
+    
+        <div class="profiles">
+    
+    
+          <div class="profile">
+            <img src="images/TeamMembers/img1.png" class="profile-img" alt="team member1">
+            <h3 class="user-name">Fouzia<br>albathi</h3>
+            <h5>Team leader</h5>
+            <p>Gave Directions to team members, helped the team make dfficult decisions, motivated others by inspiring them</p>
+          </div>
+    
+    
+          <div class="profile">
+            <img src="images/TeamMembers/img2.png" class="profile-img" alt="team member2">
+    
+            <h3 class="user-name">Rahaf alkamees</h3>
+            <h5> designer </h5>
+            <p>always had an extremely creative mind that can absorb visual trends and deploy them in fresh and exciting ways.</p>
+          </div>
+    
+    
+          <div class="profile">
+            <img src="images/TeamMembers/img3.png" class="profile-img" alt="team member3">
+    
+            <h3 class="user-name">Naama aldosary</h3>
+            <h5>Creativity</h5>
+            <p>power of creating from originality of thought and expression</p>
+          </div>
+    
+          <div class="profile">
+            <img src="images/TeamMembers/img4.png" class="profile-img" alt="team member4">
+    
+            <h3 class="user-name">Muneera Alnamlah </h3>
+            <h5>Problem solver</h5>
+            <p>can specifically identity the problem,focused on finding the right solutions and saw problems as challenges   </p>
+          </div>
+    
+          <!-- end profiles -->
+        </div>
+    
+        <!-- end Holder -->
+      </div>
+    
+
+
+    
+</body>
+</html>
